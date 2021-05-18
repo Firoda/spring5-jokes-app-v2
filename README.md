@@ -1,11 +1,26 @@
 # Spring MVC Chuck Norris Jokes App
 Spring MVC Chuck Norris Jokes App.
 
-This repository contains code to support my online courses. Learn more using the links below!
 
-You can learn more about the courses here:
-* [Spring Security Core: Beginner to Guru](https://www.udemy.com/course/spring-security-core-beginner-to-guru/?referralCode=306F288EB78688C0F3BC)
-* [Spring Boot Microservices with Spring Cloud](https://www.udemy.com/course/spring-boot-microservices-with-spring-cloud-beginner-to-guru/?referralCode=6142D427AE53031FEF38)
-* [Spring Framework 5: Beginner to Guru](https://www.udemy.com/course/spring-framework-5-beginner-to-guru/?referralCode=6D9ECD1F93988FEE5CE9)
-* [Testing Spring Boot: Beginner to Guru](https://www.udemy.com/course/testing-spring-boot-beginner-to-guru/?referralCode=EFFE87DDE96C8541B2EE)
-* [Apache Maven: Beginner to Guru](https://www.udemy.com/course/apache-maven-beginner-to-guru/?referralCode=0B91047D034706031F51)
+=> Created a Spring Boot Application to display random Chuck Norris quotes 
+=> Application is a Spring MVC Application with Thymeleaf
+
+
+
+Sample Output
+
+![Screenshot 2021-05-18 at 3 12 52 PM](https://user-images.githubusercontent.com/25230552/118630340-0fca1980-b7ec-11eb-9fdf-40ed25fa7c04.jpg)
+
+
+
+
+Note: 
+> Java 11 is required to run this project. With Java 8 the following error will be observed. 
+
+java: cannot access guru.springframework.norris.chuck.ChuckNorrisQuotes
+  bad class file: /Users/afiroda/.m2/repository/guru/springframework/chuck-norris-for-actuator/2.4.0/chuck-norris-for-actuator-2.4.0.jar!/guru/springframework/norris/chuck/ChuckNorrisQuotes.class
+    class file has wrong version 55.0, should be 52.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+
+
+
